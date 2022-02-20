@@ -1,6 +1,7 @@
 import HomePage from "./pages/home/homepage.component";
 import {Route, Routes} from "react-router-dom";
 import ShopPage from "./pages/shop/shop.component";
+import './App.scss'
 
 
 const NotFound = () => {
