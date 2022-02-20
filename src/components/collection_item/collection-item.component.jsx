@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/collection-item.styles.scss'
+import '../../assets/styles/collection-item.styles.scss'
 
 const CollectionItem = ({name, imageUrl, price}) => {
     return (
