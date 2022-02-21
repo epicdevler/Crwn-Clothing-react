@@ -3,6 +3,7 @@ import {Route, Routes} from "react-router-dom";
 import ShopPage from "./pages/shop/shop.component";
 import './App.scss'
 import {Header} from "./components/header/header.component";
+import {SignInAndSignupPage} from "./pages/signin-and-signup/signin-and-signup.component";
 
 
 const NotFound = () => {
@@ -21,6 +22,7 @@ function App() {
                 <Route exact path={'/'} element={<HomePage/>}/>
                 <Route exact path='/shop/:type' element={<ShopPage/>}/>
                 <Route exact path='/shop' element={<ShopPage/>}/>
+                <Route exact path='/auth' element={<SignInAndSignupPage/>}/>
                 <Route exact path='*' element={<NotFound/>}/>
             </Routes>
         </div>
